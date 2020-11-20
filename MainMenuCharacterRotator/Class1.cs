@@ -7,10 +7,14 @@ namespace MainMenuCharacterRotator
     [Mod]
     public class Class1 : MonoBehaviour
     {
+        // Stores the character in it
         static Transform menuCharacter;
         void Start()
         {
+            //Get the Main Menu customization character
             setMenuCharacter();
+
+            // Setup Harmony for patching into MainMenu.Start()
             HarmonyInstance harmony = HarmonyInstance.Create("com.github.archie");
             harmony.PatchAll();
         }
