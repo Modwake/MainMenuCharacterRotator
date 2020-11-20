@@ -8,10 +8,11 @@ namespace MainMenuCharacterRotator
     public class Class1 : MonoBehaviour
     {
         static Transform menuCharacter;
-
         void Start()
         {
             setMenuCharacter();
+            HarmonyInstance harmony = HarmonyInstance.Create("com.github.archie");
+            harmony.PatchAll();
         }
 
         void Update()
