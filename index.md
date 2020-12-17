@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# Welcome to MMCR
 
-You can use the [editor on GitHub](https://github.com/cheesenibbles123/-BW---MainMenuCharacterRotator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The mod does quite simply what it says on the tin, it lets you rotate the main menu character without having to be inside the customization menu.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Current Version
 
-### Markdown
+[Latest Release version](https://github.com/Modwake/MainMenuCharacterRotator/releases/tag/1.0)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Installation
 
-```markdown
-Syntax highlighted code block
+To install the mod you simply have to follow these steps:
+(They are repeated on each release version)
 
-# Header 1
-## Header 2
-### Header 3
+### Required files
 
-- Bulleted
-- List
+- **BWModLoader.dll**
+- **0Harmony.dll**
+- **Assembly-CSharp.dll**
 
-1. Numbered
-2. List
+### File setup
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cheesenibbles123/-BW---MainMenuCharacterRotator/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Place the BWModLoader.dll and 0Harmony.dll files inside your Blackwake\Blackwake_Data\Managed folder
+- Overwrite the existing Assembly-CSharp.dll with the one included in the Latest Release
+- Startup your game, on loading to the main menu you should see a folder appear in Blackwake\Blackwake_Data\Managed called Mods
+- Inside this folder place MainmenuCharacterRotator.dll
+- Launch and play!
