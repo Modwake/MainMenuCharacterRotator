@@ -26,7 +26,6 @@ namespace MainMenuCharacterRotator
             {
                 // Rotation code copied from CharacterCustomizationUI
                 menuCharacter.Rotate(Vector3.up, 1000f * Time.deltaTime * -global::Input.GetAxisRaw("Mouse X"));
-
             }
         }
 
